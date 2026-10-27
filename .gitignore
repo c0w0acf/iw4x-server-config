@@ -1,0 +1,11 @@
+# Exclude large binaries, game cache, and build files
+iw4x.exe
+iw4x.dll
+*.log
+games_mp.log
+Crashdumps/
+zone/
+raw/
+
+# Exclude sensitive configuration overrides with real passwords
+configs/secret.cfg
